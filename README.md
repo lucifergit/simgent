@@ -26,7 +26,8 @@
 
 ##关于作者
 
-```javascript
+```
+javascript
   var littlephp = {
     nickName  : "lucien",
     site : "http://www.webress.com"

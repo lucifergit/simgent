@@ -3,42 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title><?= $title; ?></title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            border: 0;
-        }
+    <link rel="stylesheet" href="<?php echo LITTLE_HTTP.APPPATH."views/css/index.css"; ?>">
 
-        body {
-            font-size: 12px;
-            font-family: "宋体", Arial, Helvetica, sans-serif;
-            color: #054a4e;
-            margin: 0 auto;
-            padding: 0;
-            line-height: 24px;
-            background: #656565;
-        }
-
-        #topnav {
-            list-style: none;
-        }
-
-        #topnav li {
-            float: left;
-            text-indent: 17px;
-        }
-
-        #topnav li a {
-            color: #fff;
-            font-weight: bold;
-        }
-
-        #header {
-            height: 60px;
-            background-color: #ccc
-        }
-    </style>
 </head>
 <body>
 <div id="header">
@@ -49,6 +15,7 @@
             <li><a href="index.php">首页</a></li>
             <li><a href="index.php?c=home&m=showmodel">博客</a></li>
             <li><a href="index.php?c=home&m=showmodel2">博客</a></li>
+            <li><a href="index.php?c=home&m=showcss">博客css</a></li>
         </ul>
     </div>
 </div>
@@ -57,8 +24,8 @@
     <h1>hello world</h1>
     <?=$first?><br>
     <?=$second?>
-    <?=$site_url?>
 </div>
 <?php echo "脚本执行时间 ", round(microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"], 3), "s";?>
+<?php echo LITTLE_HOST."<br>".LITTLE_HTTP."<br>".LITTLE_HTTP."<br>".APPPATH;  ?>
 </body>
 </html>

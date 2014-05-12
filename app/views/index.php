@@ -49,6 +49,7 @@
             <li><a href="index.php">首页</a></li>
             <li><a href="index.php?c=home&m=showmodel">博客</a></li>
             <li><a href="index.php?c=home&m=showmodel2">模板2</a></li>
+            <li><a href="index.php?c=home&m=showcss">博客css</a></li>
         </ul>
     </div>
 </div>

@@ -29,5 +29,10 @@ class homeController{
     
     //echo $_SERVER["HTTP_HOST"];
     }
-  
+    
+    public function showcss(){
+    $model= m('home');
+    $data=$model->user_info();
+    loadview('home2',$data);
+}
 }

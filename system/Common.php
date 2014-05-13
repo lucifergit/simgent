@@ -14,8 +14,9 @@ ini_set('display_errors', 0);
 //error_reporting(-1);
 //ini_set('display_errors', 1);
 
-
 require_once  BASEPATH.'/'.SYSPATH.'Functions.php';
+require_once   BASEPATH.'/'.SYSPATH.'Core/BaseController.php';
+require_once  BASEPATH.'/'.SYSPATH.'Core/BaseModel.php';
 
 /*从url获取控制器和模型，如果没有则定义默认控制器模型*/
 $controller =($_GET['c']!="")?daddslashes($_GET['c']):'home';

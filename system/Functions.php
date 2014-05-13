@@ -1,7 +1,7 @@
 <?php
 /**
-*
-*/
+ *系统重要函数库
+ */
 
 /*过滤，如果系统phpini没有开启过滤则过滤一遍,此函数不能双重过滤*/
 function daddslashes($str){

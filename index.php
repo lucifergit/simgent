@@ -1,6 +1,9 @@
 <?php
 /**
  * Littlephpframework
+ *===========================================
+ *  github: https://github.com/szpgithub/littlephp
+ *===========================================
  * @author		shizhongpu
  * @qq			272021899
  * @mail       thewebress@gmail.com
@@ -8,7 +11,6 @@
  * @updatetime       2014/5/12
  *
  */
-
 
 //var_dump($_SERVER);
 
@@ -24,7 +26,7 @@ $app_folder = 'app';
 $sys_folder = 'system';
 /*
  * 定义应用目录常量,方便在其他文件调用
- * 输出"app/"
+ * 输出"app/","system/"
  */
 if (is_dir($app_folder)){ define('APPPATH', $app_folder.'/');}
 if (is_dir($app_folder)){ define('SYSPATH', $sys_folder.'/');}

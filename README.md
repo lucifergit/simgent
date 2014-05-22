@@ -1,7 +1,8 @@
 #Littlephpframework
 #微型的php框架
 
-一个精简的php框架,可以算是一个php新手为了提高php水平之作
+一个精简的php框架,可以算是一个php为了全面提高php水平之作
+有很多都是当天学习然后就用到框架里面的
 
 ##Littlephp有哪些功能？
 

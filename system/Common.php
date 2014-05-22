@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-/*
+/* *
  *
  * 运行环境配置,错误提示
  *

@@ -23,5 +23,16 @@ class homeController{
         $data=$model->user_info();
         loadview('home',$data);
     }
-  
+    public function aaa(){
+     var_dump( $_SERVER);
+    echo site_host()."111";
+    
+    //echo $_SERVER["HTTP_HOST"];
+    }
+    
+    public function showcss(){
+    $model= m('home');
+    $data=$model->user_info();
+    loadview('home2',$data);
+}
 }

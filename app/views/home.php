@@ -49,6 +49,7 @@
             <li><a href="index.php">首页</a></li>
             <li><a href="index.php?c=home&m=showmodel">博客</a></li>
             <li><a href="index.php?c=home&m=showmodel2">博客</a></li>
+            <li><a href="index.php?c=home&m=showcss">博客css</a></li>
         </ul>
     </div>
 </div>
@@ -58,5 +59,7 @@
     <?=$first?><br>
     <?=$second?>
 </div>
+<?php echo "脚本执行时间 ", round(microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"], 3), "s";?>
+<?php echo LITTLE_HOST,LITTLE_HTTP;  ?>
 </body>
 </html>

@@ -31,10 +31,9 @@ if (is_dir($app_folder)){ define('SYSPATH', $sys_folder.'/');}
 
 /* 定义入口文件当前物理路径,并如果在win环境路径下的反斜杠"\"换成Uinx"/" */
 define('BASEPATH',str_replace('\\', '/', dirname(__FILE__))) ;
-
 /*载入核心文件*/
 require_once BASEPATH.'/'.SYSPATH.'Common.php';
 
 /*载入控制器模型*/
-c($controller,$method);
+
 ?>

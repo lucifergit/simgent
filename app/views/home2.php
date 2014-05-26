@@ -22,10 +22,10 @@
     <p><input value="Hello LTphp" type="button" onclick=""/></p>
 
 </div>
-
-<?php echo "脚本执行时间 ", round(microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"], 3), "s";?>
-<?php echo LITTLE_HOST."<br>".LITTLE_HTTP."<br>".LITTLE_HTTP."<br>".APPPATH;  ?>
-
+    <div>
+    <?php echo "脚本执行时间 ", round(microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"], 3), "s";?>
+    <?php echo LITTLE_HOST."<br>".LITTLE_HTTP."<br>".LITTLE_HTTP."<br>".APPPATH;  ?>
+    </div>
 </div>
 </body>
 </html>

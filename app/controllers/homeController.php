@@ -8,13 +8,15 @@ class homeController{
 
     public function index(){
         $model= m('home');
-        $data=$model->getindex();
+        $data["data"]=$model->getindex();
+          $data["title"]="首页";
         loadview('index',$data);
     }
 
     public function showmodel(){
         $model= m('home');
-        $data=$model->get();
+        $data["data"]=$model->get();;
+        $data["title"]="博客";
         loadview('index',$data);
   }
   
@@ -26,8 +28,6 @@ class homeController{
     public function aaa(){
      var_dump( $_SERVER);
     echo site_host()."111";
-    
-    //echo $_SERVER["HTTP_HOST"];
     }
     
     public function showcss(){
